@@ -1,0 +1,85 @@
+* {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('./assets/fonts/SFMono-Regular.otf') format('truetype');
+}
+
+span.underline {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 75%;
+  transition: background-size 0.25s ease-in;
+}
+
+button.close-button {
+  display: none;
+}
+
+.Category {
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
+  padding: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  position: absolute;
+  margin-top: 50px;
+}
+
+th,
+td {
+  padding: 25px;
+  text-align: left;
+  font-weight: 500;
+  font-family: 'SFMono';
+  position: relative;
+  top: -30px;
+}
+
+input {
+  outline: 0;
+  height: 42px;
+  width: 244px;
+  line-height: 42px;
+  padding: 0 16px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  color: #212121;
+  font-size: 18px;
+  border: 0;
+  text-align: left;
+  border-radius: 4px;
+}
+
+form {
+  outline: 0;
+  float: left;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.Search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+span.emoji {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 48px;
+}
+
+.CreateCustom {
+  margin-top: 50px;
+}
